@@ -12,3 +12,22 @@ h3 {
 	/*display: inline-block;*/
 	/*margin: 5% 20%; */
 }
+
+.image {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.points {
+	margin: 20px;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+h2 {
+	border: 2px solid black;
+	background-color: #afeeee;
+	color: blue;
+}
