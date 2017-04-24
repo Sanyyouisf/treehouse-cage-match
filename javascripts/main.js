@@ -9,8 +9,7 @@ $(document).ready(function() {
 
         const loadFirstPlayer = () => {
             return new Promise((resolve, reject) => {
-                // $.ajax("https://teamtreehouse.com/" + input1 + ".json")
-                $.ajax("https://teamtreehouse.com/sanyyousif.json")
+                $.ajax("https://teamtreehouse.com/" + input1 + ".json")
                     .done((data1) => resolve(data1))
                     .fail((error) => reject(error));
             });
@@ -19,8 +18,7 @@ $(document).ready(function() {
 
         const loadSecondPlayer = () => {
             return new Promise((resolve, reject) => {
-                // $.ajax("https://teamtreehouse.com/" + input2 + ".json")
-                $.ajax("https://teamtreehouse.com/ellisthomas.json")
+                $.ajax("https://teamtreehouse.com/" + input2 + ".json")
                 .done((data1) => resolve(data1))
                 .fail((error) => reject(error));
             });
@@ -30,7 +28,6 @@ $(document).ready(function() {
         const players = [];
         //print every player image and points 
         const printplayerData = (players) => {
-            console.log("strat print to dom");
             let playerString = "";
             for (i = 0; i < players.length; i++) {
                 playerString += `<div class= "player row col-md-5">`;
@@ -53,10 +50,10 @@ $(document).ready(function() {
                 playerPointsArray.push(playerPointsstrings);
             }
             if (playerPointsArray[0] > playerPointsArray[1]) {
-                $("#winner").val((players[0].name)+ "winns");
+                $("#winner").val((players[0].name)+ "wins");
                 winner = 0;
             } else {
-                $("#winner").val((players[1].name)+ " winns");
+                $("#winner").val((players[1].name)+ " wins");
                 winner = 1;
             }
             winnerbagdges(players, winner);
