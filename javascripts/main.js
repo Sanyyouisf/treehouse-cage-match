@@ -53,10 +53,10 @@ $(document).ready(function() {
                 playerPointsArray.push(playerPointsstrings);
             }
             if (playerPointsArray[0] > playerPointsArray[1]) {
-                $("#winner").val("the winner   " + (players[0].name));
+                $("#winner").val((players[0].name)+ "winns");
                 winner = 0;
             } else {
-                $("#winner").val("the winner   " + (players[1].name));
+                $("#winner").val((players[1].name)+ " winns");
                 winner = 1;
             }
             winnerbagdges(players, winner);
