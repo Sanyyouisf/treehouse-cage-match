@@ -33,5 +33,8 @@ Compared Treehouse user data in a mock arcade game. Scraped online **JSON** file
  - Run command "npm install"
 
  <hr>
- ## Contributor 
+ 
+## Contributor 
  - Sany Yousif
+
+ <hr>
