@@ -1,6 +1,6 @@
 # Treehouse Cage Match
 
-![Splashpage]()
+![Splashpage](https://github.com/Sanyyouisf/treehouse-cage-match/blob/Readme/picture/cageMatch.jpg)
 
 <hr>
 
