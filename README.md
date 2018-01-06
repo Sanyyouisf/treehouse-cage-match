@@ -9,15 +9,6 @@ Compared Treehouse user data in a mock arcade game. Scraped online **JSON** file
 
 <hr>
 
-## To Access Necessary Libaries For Local Testing:
- - Pull down project
- - cd into lib
- - Run command "bower install"
- - Run command "npm install"
-
-
-<hr>
-
 ## Requirements
 1. Your site should have two inputs and a button
 1. In the inputs you type in a treehouse username and then hit the button
@@ -34,3 +25,13 @@ Compared Treehouse user data in a mock arcade game. Scraped online **JSON** file
  - Use jquery .animate method to apply animation to the images
 
 <hr>
+
+## To Access Necessary Libaries For Local Testing:
+ - Pull down project
+ - cd into lib
+ - Run command "bower install"
+ - Run command "npm install"
+
+ <hr>
+ ## Contributor 
+ - Sany Yousif
